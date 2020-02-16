@@ -51,7 +51,7 @@ export class signUp extends Component {
                     </div>
 
                     <div className="input-field">
-                        <button className ="btn red lighten-1 z-depth-0">Get Started!</button>
+                        <button className ="btn waves-effect waves-light">Get Started!</button>
                    
                     </div>
 

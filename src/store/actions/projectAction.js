@@ -7,7 +7,7 @@ export const createProject = (project) => {
       firestore.collection('projects').add({
           ...project,
           Age:'22',
-          Sex: 'F'
+          Sex: 'F',
       }).then(() => {
         dispatch({ type: 'CREATE_PROJECT', project });
 
@@ -16,4 +16,5 @@ export const createProject = (project) => {
       })
       
     }
-  };
+};
+  

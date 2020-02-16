@@ -45,7 +45,8 @@ export class CreateProject  extends Component {
                     
 
                     <div className="input-field">
-                        <button className ="btn red lighten-1 z-depth-0">Go!</button>
+                    
+                        <button className ="btn waves-effect waves-light">Go!</button>
                    
                     </div>
 

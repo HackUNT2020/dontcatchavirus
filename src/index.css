@@ -14,7 +14,16 @@ body {
 form{
   padding:20px;
   margin-top: 60px;
+
 }
+<a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+
+form button, form h5{
+    color: #000000;
+    background-color:#000000;
+    margin: 20px ;
+}
+
 input[type=text]:not(.browser-default):focus:not([readonly]),
 input[type=email]:not(.browser-default):focus:not([readonly]),
 input[type=password]:not(.browser-default):focus:not([readonly]),
@@ -29,3 +38,4 @@ input[type=email]:not(.browser-default):focus:not([readonly]) + label,
 input[type=password]:not(.browser-default):focus:not([readonly]) + label{
   color: #000000 ;
 }
+
