@@ -1,4 +1,4 @@
-import { firestoreReducer } from "redux-firestore";
+
 
 export const createProject = (project) => {
     return (dispatch, getState,{getFirebase,getFirestore}) => {
@@ -8,11 +8,11 @@ export const createProject = (project) => {
           ...project,
           Age:'22',
           Sex: 'F'
-      }).then(()={
+      }).then(() => {
         dispatch({ type: 'CREATE_PROJECT', project });
 
       }).catch((err) =>{
-          dispatch({type:'CREATE_PROJECT_ERROR',ERR});
+          dispatch({type:'CREATE_PROJECT_ERROR',err});
       })
       
     }
